@@ -1,127 +1,155 @@
-# SentinelAI Organization Configuration
+SentinelAI
 
-Welcome to the **SentinelAI** organization.
+Welcome to the SentinelAI organization.
 
-This repository contains the **organization profile and shared GitHub configuration** used across SentinelAI repositories.
+This repository contains the organization profile and shared GitHub configuration used across all SentinelAI repositories.
 
-SentinelAI is a student-built project designed to demonstrate **enterprise-style software architecture and collaboration workflows**. The project focuses on building an **AI-powered surveillance system** capable of analyzing live camera feeds and uploaded videos to detect incidents and assess risk levels.
-
----
-
-## About SentinelAI
-
-SentinelAI is an experimental surveillance platform that combines **computer vision, backend services, and modern frontend technologies** to simulate how real-world intelligent monitoring systems operate.
-
-The goal of the project is to showcase:
-
-* Scalable **backend API design**
-* Modular **frontend architecture**
-* AI-powered **video analysis workflows**
-* Professional **GitHub organization management**
-
-This project is structured similarly to how real software teams manage multi-repository systems.
+SentinelAI is a student-built project designed to simulate how modern enterprise systems are structured and developed. The project focuses on building an AI-powered surveillance platform capable of analyzing live camera feeds and uploaded videos to detect incidents and assess potential risks.
 
 ---
 
-## Organization Repositories
+ About SentinelAI
 
-### SentinelAI-Frontend
+SentinelAI is an experimental platform that combines computer vision, backend services, and modern frontend technologies to replicate how real-world intelligent monitoring systems operate.
 
-Frontend application responsible for the user interface and monitoring dashboard.
+The project is designed to demonstrate practical experience with:
 
-Key components include:
+ Scalable backend API design
+ Modular frontend architecture
+ AI-driven video analysis workflows
+ Professional GitHub organization management
+ Multi-repository project structure
 
-* Landing page
-* About page
-* Information / features page
-* Authentication pages (Login / Signup)
-* Surveillance dashboard
-
-Responsibilities:
-
-* UI/UX
-* API integration
-* Visualization of incidents and reports
+The goal is to practice building software using enterprise-level development practices while maintaining a clear and maintainable architecture.
 
 ---
 
-### SentinelAI-Backend
+ Organization Repositories
 
-Backend service responsible for handling system logic and data processing.
+SentinelAI is organized into separate repositories to keep the system modular, scalable, and easier to maintain.
 
-Core responsibilities:
+ SentinelAI-Frontend
 
-* Authentication and authorization
-* REST API services
-* Video processing pipeline
-* Incident classification
-* Risk assessment logic
+Repository:
+https://github.com/SentinelAI-UCMN/SentinelAI-Frontend
+
+The frontend application provides the user interface and monitoring dashboard for the SentinelAI system.
+
+Key features include:
+
+ Landing page
+ About page
+ Information / features page
+ Login and signup authentication pages
+ Surveillance dashboard
+
+Primary responsibilities:
+
+ User interface and experience
+ API communication with the backend
+ Displaying incident analysis and reports
 
 ---
 
-## Project Architecture
+ SentinelAI-Backend
 
-The SentinelAI system follows a **separated architecture**, similar to enterprise SaaS platforms.
+Repository:
+https://github.com/SentinelAI-UCMN/SentinelAI-Backend
 
-Frontend and backend are maintained in **independent repositories** to allow modular development and scalability.
+The backend service handles the core logic, system processing, and API services required for SentinelAI.
+
+Core responsibilities include:
+
+ Authentication and authorization
+ REST API services
+ Video upload and processing pipeline
+ Incident detection and classification
+ Risk assessment logic
+
+---
+
+ System Architecture
+
+SentinelAI follows a separated architecture model, which is commonly used in enterprise SaaS applications.
+
+Each component is developed independently to allow teams to work on different parts of the system without interfering with one another.
 
 High-level structure:
 
+```
 SentinelAI Organization
+│
 ├── SentinelAI-Frontend
 ├── SentinelAI-Backend
 └── .github
+```
+
+Typical system flow:
+
+```
+User
+  ↓
+Frontend Application
+  ↓
+Backend API Services
+  ↓
+Video Processing / AI Analysis
+```
 
 ---
 
-## Purpose of This Repository
+ Purpose of This Repository
 
-This `.github` repository stores **organization-wide configuration files** used by all SentinelAI repositories.
+This `.github` repository contains organization-wide configuration files that apply to all SentinelAI repositories.
 
-Typical contents may include:
+Examples of files stored here include:
 
-* Organization profile README
-* Issue templates
-* Pull request templates
-* GitHub workflow configurations
-* Contribution guidelines
+ Organization profile README
+ Issue templates
+ Pull request templates
+ GitHub workflow configurations
+ Contribution guidelines
 
-These files help maintain **consistent development practices across the organization**.
-
----
-
-## Development Philosophy
-
-This project is built with the goal of following **enterprise development practices** even in a student environment.
-
-Key principles include:
-
-* Clear repository separation
-* Documentation-first development
-* Structured issue tracking
-* Consistent collaboration workflows
-* Scalable architecture design
+These resources help maintain consistent development practices across the organization.
 
 ---
 
-## Future Expansion
+ Development Philosophy
 
-Planned improvements for the SentinelAI ecosystem include:
+SentinelAI is developed using principles inspired by professional engineering teams.
 
-* AI model repository
-* CI/CD pipelines
-* Deployment infrastructure
-* Documentation repository
-* Security and monitoring integrations
+Key practices include:
 
----
+ Clear separation of system components
+ Documentation-first development
+ Structured issue tracking
+ Consistent pull request workflows
+ Scalable project architecture
 
-## Maintainers
-
-SentinelAI is currently developed as a **student-led project** to practice professional software engineering workflows and modern AI system architecture.
+Even though this project is student-built, it aims to follow the same organizational and development standards used in real-world software teams.
 
 ---
 
-## License
+ Future Expansion
 
-This project is intended for **educational and demonstration purposes**.
+SentinelAI may expand into additional repositories as the system grows.
+
+Possible additions include:
+
+ SentinelAI-AI – dedicated repository for AI models
+ SentinelAI-Docs – system documentation and architecture diagrams
+ CI/CD pipelines for automated testing and deployment
+ Infrastructure configuration for deployment environments
+ Security and monitoring integrations
+
+---
+
+ Maintainers
+
+SentinelAI is currently developed as a student-led project intended to practice modern software engineering workflows and system architecture design.
+
+---
+
+ License
+
+This project is intended for educational and demonstration purposes.
