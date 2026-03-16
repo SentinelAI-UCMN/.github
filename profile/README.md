@@ -9,7 +9,7 @@ AI-Powered Surveillance and Incident Detection Platform
 <br>
 
 <p align="center">
-  <img src="./Downloads/Private/sentinelai-github.png width="180"/>
+  <img src="./sentinelai-github.png width="180"/>
 </p>
 
 ---
