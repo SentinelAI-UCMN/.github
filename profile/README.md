@@ -1,15 +1,11 @@
-<h1 align="center">
-Welcome to SentinelAI
-</h1>
+<h1 align="center">Welcome to SentinelAI</h1>
 
 <p align="center">
-AI-Powered Surveillance and Incident Detection Platform
+  AI-Powered Surveillance and Incident Detection Platform
 </p>
 
-<br>
-
 <p align="center">
-  <img src="../sentinelai-github.png" width="180"/>
+  <img src="sentinelai-github.png" width="180"/>
 </p>
 
 ---
